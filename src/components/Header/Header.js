@@ -8,6 +8,7 @@ function Header(){
                 <a href="/"> Home </a>
                 <a href="/about"> About </a>
                 <a href="/contacts"> Contacts </a>
+                <a href="/users"> Users </a>
             </div>
         </div>
     )

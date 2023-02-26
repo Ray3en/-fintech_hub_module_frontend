@@ -5,6 +5,7 @@ import Home from '../Pages/Home/Home';
 import About from '../Pages/About/About';
 import Contacts from '../Pages/Contacts/Contacts';
 import NotFound from '../Pages/NotFound/NotFound';
+import Users from '../Pages/Users/Users';
 
 
 function App(){  
@@ -16,6 +17,7 @@ function App(){
                     <Route path='/' element={<Home/>}/>
                     <Route path='/about' element={<About/>}/>
                     <Route path='/contacts' element={<Contacts/>}/>
+                    <Route path='/users' element={<Users/>}/>
                     <Route path='*' element={<NotFound/>}/>
                 </Routes>
            </Router> 

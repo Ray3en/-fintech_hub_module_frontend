@@ -1,6 +1,18 @@
 .contacts_page{
-    padding-top: 250px;
+    padding-top: 50px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.form_wrapper{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.errors{
+    color: red;
 }
